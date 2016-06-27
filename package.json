@@ -1,0 +1,26 @@
+{
+  "name": "simple-atm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd app && ../node_modules/http-server/bin/http-server",
+    "webdriver-manager": "./node_modules/protractor/bin/webdriver-manager",
+    "protractor": "./node_modules/protractor/bin/protractor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macebake/simple-atm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macebake/simple-atm/issues"
+  },
+  "homepage": "https://github.com/macebake/simple-atm#readme",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "protractor": "^3.3.0"
+  }
+}
